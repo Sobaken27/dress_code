@@ -5,8 +5,7 @@
 a {
 	text-decoration: none;
 }
-body {
-	height: 6000px;
+body {	
 	font-family: 'Open Sans', sans-serif;
 }
 header {
@@ -155,15 +154,14 @@ font-size: 24px;
 	line-height: 1.55;
 	font-weight: 300;
 }
-.next-cont {
+.advantages {
 	background-color: #f2f2f2;
-    min-height: 1000px;
     padding-top: 50px;
 }
 .wrapper-white {
 	background-color: white;
-	 min-height: 1000px;
 	 	padding-top:50px;
+	 	padding-bottom: 130px;
 }
 .wrapper-white h1 {
 	font-size: 40px;
@@ -179,13 +177,36 @@ font-size: 24px;
 		    
 		    	margin: 0 auto;
 }
+.flexcont {
+	padding-top: 100px;
+	max-width:960px;
+	display: flex;
+	flex-direction: column;
+	    margin: 0 auto;
+	 
+}
+.flexcont .item {
+	    margin: 0 20px;
+	    padding-bottom: 65px;
+}
+.flexcont .item img{
+ float:left;
+padding-right: 10px;	
+}
+.flexcont .item h2 {
+font-size: 20px;
+	 font-family: 'Roboto', sans-serif;
+	 margin-bottom: 10px;
+}
+.flexcont .item p {
+	font-size: 18px;
+	 font-family: 'Roboto', sans-serif;
+		    font-weight: 300;
+		    line-height: 1.55;
+
+}
 .production {
 	background-color: #f2f2f2;
-	 padding-top:70px;
+	 padding-top:90px;
 	 padding-bottom: 70px;
-}
-.production img {
-	margin-top:50px;
-	margin-left:140px;
-
 }
