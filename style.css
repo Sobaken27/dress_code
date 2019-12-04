@@ -6,6 +6,7 @@ a {
 	text-decoration: none;
 }
 body {	
+	height:5000px;
 	font-family: 'Open Sans', sans-serif;
 }
 header {
@@ -32,6 +33,7 @@ header {
 	background-color: white;
 }
 nav {
+		height:110px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -126,7 +128,7 @@ animation: b 1.5s ease-in-out infinite;
 	background-color: #f2f2f2;
 	display: flex;
 	align-items: center;
-	padding-bottom: 30px;
+	padding-bottom: 80px;
 }
 .flexcontainer {
 	width: 100%;
@@ -156,7 +158,6 @@ font-size: 24px;
 }
 .advantages {
 	background-color: #f2f2f2;
-    padding-top: 50px;
 }
 .wrapper-white {
 	background-color: white;
@@ -207,6 +208,44 @@ font-size: 20px;
 }
 .production {
 	background-color: #f2f2f2;
-	 padding-top:90px;
+	 padding-top:80px;
 	 padding-bottom: 70px;
+}
+.shop {
+	position: relative;
+	width: 100%;
+	height: 551px;
+	background-image: url(img/shop.png);
+	background-color: rgba(51,51,51,1);
+	background-blend-mode: overlay;
+	background-position: center;
+	background-repeat: no-repeat;
+	color:white;
+}
+.shop h1 {
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	position: absolute;
+	top:35%;
+	left:15%;
+}
+.shop a {
+	font-family: 'Roboto', sans-serif;
+	background-color: rgba(255,255,255,0);
+	border:1px solid white;
+	color:white;
+	padding:8px 20px;
+	font-size: 24px;
+		position: absolute;
+	left:17%;
+	top:270px;
+	font-weight: 300;
+}
+.shop a:hover {
+	background-color: rgba(255,255,255,1);
+	transition: 0.2s ease;
+	color: #404040;
+}
+.shop a:active {
+	background-color: rgba(255,255,255,0.8);
 }
