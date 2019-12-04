@@ -4,6 +4,7 @@
 	<title>Dress_Code</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="slider/css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
@@ -64,7 +65,48 @@
    		<h1>Производство</h1>
       <p class="wrapper_p">Изготавливаем одежду на собственном производстве, оснащенном<br> современным швейным оборудованием ведущих мировых<br> производителей.</p>
    	</div>
-    <img src="img/ceh.jpg" alt="">
+      <div class="container">
+  
+  <div data-am-fadeshow="next-prev-navigation">
+
+    <!-- Radio -->
+    <input type="radio" name="css-fadeshow" id="slide-1" />
+    <input type="radio" name="css-fadeshow" id="slide-2" />
+    <input type="radio" name="css-fadeshow" id="slide-3" />
+
+    <!-- Slides -->
+    <div class="fs-slides">
+      <div class="fs-slide" style="background-image: url(img/ceh1.jpg);">
+        <!-- Add content to images (sample) -->
+      </div>
+      <div class="fs-slide" style="background-image: url(img/ceh2.jpg);"></div>
+      <div class="fs-slide" style="background-image: url(img/ceh3.jpg);"></div>
+    </div>
+
+    <!-- Quick Navigation -->
+    <div class="fs-quick-nav">
+      <label class="fs-quick-btn" for="slide-1"></label>
+      <label class="fs-quick-btn" for="slide-2"></label>
+      <label class="fs-quick-btn" for="slide-3"></label>
+    </div>
+    
+    <!-- Prev Navigation -->
+    <div class="fs-prev-nav">
+      <label class="fs-prev-btn" for="slide-1"></label>
+      <label class="fs-prev-btn" for="slide-2"></label>
+      <label class="fs-prev-btn" for="slide-3"></label>
+    </div>
+    
+    <!-- Next Navigation -->
+    <div class="fs-next-nav">
+      <label class="fs-next-btn" for="slide-1"></label>
+      <label class="fs-next-btn" for="slide-2"></label>
+      <label class="fs-next-btn" for="slide-3"></label>
+    </div>
+
+  </div>
+  
+</div>
    </div>
 <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="script.js"></script>	

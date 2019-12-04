@@ -6,6 +6,7 @@ a {
 	text-decoration: none;
 }
 body {
+	height: 6000px;
 	font-family: 'Open Sans', sans-serif;
 }
 header {
@@ -48,6 +49,7 @@ nav a {
 	background-color: rgba(51,51,51,0.9);
 	background-blend-mode: overlay;
 	background-position: center;
+	background-repeat: no-repeat;
     text-align: center;
     width:100%;
     min-height:830px;
@@ -179,10 +181,11 @@ font-size: 24px;
 }
 .production {
 	background-color: #f2f2f2;
-	 min-height: 1000px;
 	 padding-top:70px;
+	 padding-bottom: 70px;
 }
 .production img {
 	margin-top:50px;
 	margin-left:140px;
+
 }
