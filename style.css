@@ -39,10 +39,18 @@ nav {
 	align-items: center;
 }
 nav a {
-	color:#0071bb;
+	color:rgba(0,113,187,0.9);
 		font-family: 'Open Sans', sans-serif;
 		text-transform: uppercase;
-		padding: 20px;
+		padding: 5px;
+}
+nav a:hover {
+	color: #004f9f;
+	border-bottom: 1px dotted #004f9f;
+	transition: 0.05s;
+}
+nav a:active {
+	color: #009;
 }
 .header-body {
 	background-image: url(img/fabrika.jpg);
@@ -66,8 +74,25 @@ font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
 font-family: 'Open Sans', sans-serif;
 }
+.header-body button {
+	margin-top:50px;
+	color:white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	 padding: 15px 75px;
+	border-radius: 4px;
+	background-color: rgba(0,113,187,1);
+	cursor: pointer;
+	border:1px solid rgba(0,113,187,1);
+}
+.header-body button:hover {
+	background-color: rgba(0,113,187,0.3);
+}
+.header-body button:active {
+	background-color: rgba(0,113,187,0.4);
+}
 .header-body img {
-	margin-top:350px;
+	margin-top:250px;
 	opacity: 0.8;
 animation: b 1.5s ease-in-out infinite;
 }
@@ -208,8 +233,7 @@ font-size: 20px;
 }
 .production {
 	background-color: #f2f2f2;
-	 padding-top:80px;
-	 padding-bottom: 70px;
+	 padding: 70px 0 100px 0;
 }
 .shop {
 	position: relative;
@@ -232,7 +256,7 @@ font-size: 20px;
 .shop a {
 	font-family: 'Roboto', sans-serif;
 	background-color: rgba(255,255,255,0);
-	border:1px solid white;
+	border:2px solid white;
 	color:white;
 	padding:8px 20px;
 	font-size: 24px;
@@ -244,8 +268,151 @@ font-size: 20px;
 .shop a:hover {
 	background-color: rgba(255,255,255,1);
 	transition: 0.2s ease;
-	color: #404040;
+	color: black;
 }
 .shop a:active {
 	background-color: rgba(255,255,255,0.8);
+}
+.tech {
+	width:100%;
+	 padding: 70px 0 100px 0;
+	background-color: #f2f2f2;
+}
+.tech .wrapper {
+
+}
+.techflex {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.box {
+	margin-top:100px;
+width:100%;
+min-height:400px;
+display: flex;
+justify-content: center;
+}
+.text {
+	max-width:540px;
+	color:#272727;
+		font-family: 'Roboto', sans-serif;
+}
+.box img {
+width: 41.66%;
+}
+.box .img_left {
+	padding-right:60px;
+}
+.box .img_right {
+	padding-left:60px;
+}
+.text h3 {
+	font-size: 28px;
+	font-weight: 500;
+}
+.text p {
+	font-size: 20px;
+	margin: 20px 0px 0px;
+	font-weight: 300;
+}
+.partners {
+padding-top: 50px;
+padding-bottom: 120px;
+}
+.flex-partners {
+	margin-top:150px;
+	display: flex;
+	justify-content: center;
+
+}
+.contpartner {
+	margin:0 30px;
+	max-width:200px;
+		text-align: center;
+}
+.contpartner img {
+	width: 100%;
+}
+.contpartner p {
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 500;
+}
+.contpartner a {
+	display: inline-block;
+	margin-top: 100px;
+	font-family: 'Roboto', sans-serif;
+	background-color: rgba(255,255,255,0);
+	border:1px solid black;
+	color:black;
+	padding:15px 15px;
+	font-size: 18px;
+}
+.contpartner a:hover {
+	background-color: #0071bb;
+	border:1px solid #0071bb;
+	transition: 0.1s ease;
+	color: white;
+}
+.contpartner a:active {
+	background-color: rgba(255,255,255,0.8);
+}
+.contacts {
+	background-color: #f2f2f2;
+	height:500px;
+}
+.contacts {
+background-image: url(img/contacts_back.jpg);
+	background-attachment: fixed;
+	background-color: rgba(51,51,51,0.9);
+	background-blend-mode: overlay;
+	background-position: center;
+	background-repeat: no-repeat;
+		padding-top:170px;
+min-height: 820px;
+}
+.wrapper_contacts {
+	background-color: white;
+	min-height: 650px;
+}
+.flexcontacts {
+	display: flex;
+	justify-content: space-around;
+		margin-top:50px;
+}
+.contacts_info {
+	width:500px;
+	display: flex;
+justify-content: center;
+}
+.contacts_info p {
+	padding-top: 50px;
+	font-size: 20px;
+}
+.phone {
+	display: flex;
+	align-items: center;
+}
+.phone img {
+	opacity: 0.8;
+}
+.phone a {
+	color:rgba(0,113,187,0.9);
+}
+.phone a:hover {
+		color:rgba(0,113,187,1);
+	text-decoration: underline;
+}
+/*.gallery {
+	display: flex;
+}*/
+footer {
+	height: 100px;
+}
+footer .wrapper {
+	height:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
