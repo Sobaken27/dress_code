@@ -6,7 +6,6 @@ a {
 	text-decoration: none;
 }
 body {	
-	height:5000px;
 	font-family: 'Open Sans', sans-serif;
 }
 header {
@@ -187,7 +186,7 @@ font-size: 24px;
 .wrapper-white {
 	background-color: white;
 	 	padding-top:50px;
-	 	padding-bottom: 130px;
+	 	padding-bottom: 110px;
 }
 .wrapper-white h1 {
 	font-size: 40px;
