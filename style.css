@@ -12,6 +12,9 @@ body {
 header {
 
 }
+main {
+
+}
 .wrapper {
 		width: 75%;
 	margin: 0 auto;
@@ -39,6 +42,7 @@ nav {
 	align-items: center;
 }
 nav a {
+	 display: inline-block;
 	color:rgba(0,113,187,0.9);
 		font-family: 'Open Sans', sans-serif;
 		text-transform: uppercase;
@@ -52,6 +56,17 @@ nav a:hover {
 nav a:active {
 	color: #009;
 }
+.menu-trigger {
+	display: none;
+    top: 15px;
+    font-size: 2.5em;
+    color: rgba(0,113,187,1);
+    position: absolute;
+    right: .25em;
+    padding: 0 .25em;
+    z-index: 40;
+    border-bottom: none;
+}
 .header-body {
 	background-image: url(img/fabrika.jpg);
 	background-attachment: fixed;
@@ -61,7 +76,7 @@ nav a:active {
 	background-repeat: no-repeat;
     text-align: center;
     width:100%;
-    min-height:830px;
+    height:830px;
 }
 .header-body h1 {
 	color:white;
@@ -172,7 +187,7 @@ animation: b 1.5s ease-in-out infinite;
 }
 .section {
 	text-align: center;
-    width:400px;
+    max-width:400px;
 }
 .section h3 {
 font-weight: 600;

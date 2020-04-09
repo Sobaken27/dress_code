@@ -1,4 +1,37 @@
-@media(max-width: 1602px){
+@media(max-width: 1605px){
+	.flexcontainer {
+     flex-direction: column;
+	}
 .line {
-	display: none;
+	display: block;
+	width:300px;
+	height:2px;
+	margin:40px 0;
+}
+@media(max-width: 1200px){
+.wrapper-65 {
+	width:90%;
+}
+.wrapper {
+	width:90%;
+}
+.header-body {
+height:auto;
+}
+.header-body h1 {
+	padding-top: 150px;
+}
+}
+@media(max-width: 992px) {
+	.menu-trigger {
+		display: block;
+	}
+	.menu {
+		display: none;
+        background: white;
+	}
+	nav {
+	    flex-direction: column;
+
+	}
 }
