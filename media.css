@@ -35,3 +35,11 @@ height:auto;
 
 	}
 }
+@media (pointer:coarse){
+.header-body {
+	background-attachment: scroll;
+}
+.contacts {
+	    background-attachment: scroll;
+}
+}

@@ -773,7 +773,7 @@ body {
 
 .container {
 max-width: 1640px;
-height:942px;
+max-height:942px;
   margin:0 auto;
   margin-top:60px;
 }
